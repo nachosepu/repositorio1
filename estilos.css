@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.navbar{
+    background-color: rgb(196, 122, 38);
+}
+
+.navbar a{
+    color: black !important;
+    padding-left: 10px !important;
+}
+.navbar a:hover{
+    background-color: rgb(153, 96, 31);
+    color: #fff !important;
+}
+.jumbotron{
+    background-image: url(imagenes/fondo1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    font-family: "lobster", cursive;
+    
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(196, 122, 38);
+    font-size: 45px;
+    font-family: "lobster", cursive;
+
+}
+
+.text1{
+    background-color: #fff;
+    height: auto;
+}
+
+.galeria1{
+    background-image: url(imagenes/galeria4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+}
+
+.text2{
+    background-color: rgb(199, 150, 93);
+    height: auto;
+}
+
+.galeria2{
+    background-image: url(imagenes/rapado-hombre-5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+.body-index{
+    background-image: url(imagenes/fondo2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.logo0{
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    font-family: "lobster", cursive;
+    color: black;
+}
+
+.barra0{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+    align-items: center;
+    font-size: 30px;
+}
+
+.barra0 li a{
+    color: black;
+}
+
+.barra0 li a:hover{
+    color: rgb(196, 122, 38);
+}
