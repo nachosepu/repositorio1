@@ -6,7 +6,6 @@
 
 
 
-
 .navbar{
     background-color: rgb(196, 122, 38);
 }
@@ -27,10 +26,13 @@
     color: #fff;
     border-radius: 0px;
     margin-bottom: 0px;
-    font-family: "lobster", cursive;
+    
     
 }
+.titulo2{
+    font-family: "lobster", cursive;
 
+}
 h2{
     text-align: center;
     background-color: rgb(196, 122, 38);
@@ -93,4 +95,40 @@ h2{
 
 .barra0 li a:hover{
     color: rgb(196, 122, 38);
+}
+
+.titulo1{
+    text-align: center;
+    font-family: "lobster", cursive;
+    font-size: 60px;
+}
+
+.text3{
+    text-align: center;
+    font-family: "bebas neue", cursive;
+    font-size: 60px;
+}
+
+.pagina4{
+    background-image: radial-gradient(circle, #a97a26, #b4832a, #bf8c2e, #cb9533, #d69e37, #cf8e39, #c6803c, #bb723e, #91503a, #623430, #331d1f, #000000);
+    
+}
+
+.titulo4{
+    font-family: "bebas neue", cursive;
+    text-align: center;
+    
+}
+
+.form1{
+    font-family: "bebas neue", cursive;
+    font-size: 28px;
+    color: #fff;
+}
+
+
+.titulo3{
+    font-family: "bebas neue", cursive;
+    text-align: center;
+    font-size: 60px;
 }
