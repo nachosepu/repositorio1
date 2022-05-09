@@ -4,8 +4,123 @@
 }
 
 
+/* pagina index incio */
 
+.body-index{
+    background-image: url(imagenes/fondo2.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
+.logo0{
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    font-family: "lobster", cursive;
+    color: black;
+}
+
+.barra0{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding-left: 330px;
+    font-size: 30px; 
+    gap: 45px;
+    
+    
+}
+
+.barra0 li a{
+    color: black;
+}
+
+.barra0 li a:hover{
+    color: rgb(196, 122, 38);
+}
+
+.titulo1{
+    text-align: center;
+    font-family: "lobster", cursive;
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 1038px){
+    .logo0{
+        display: flex;
+        align-items: center;
+        padding-left: 230px;
+        font-family: "lobster", cursive;
+        color: black;
+    }
+    .barra0{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        padding-left: 200px;
+        font-size: 30px; 
+        gap: 40px;
+}
+@media only screen and (max-width: 888px){
+    .logo0{
+        display: flex;
+        align-items: center;
+        padding-left: 110px;
+        font-family: "lobster", cursive;
+        color: black;
+    }
+    .barra0{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        padding-left: 100px;
+        font-size: 30px; 
+        gap: 40px;
+}
+@media only screen and (max-width: 788px){
+    .logo0{
+        display: flex;
+        align-items: center;
+        padding-left: 50px;
+        font-family: "lobster", cursive;
+        color: black;
+    }
+    .barra0{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        padding-left: 30px;
+        font-size: 30px; 
+        gap: 40px;
+}
+@media only screen and (max-width: 718px){
+    .barra0{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        padding-left: 5px;
+        font-size: 30px; 
+        gap: 40px;
+}
+@media only screen and (max-width: 665px){
+    .logo0{
+        display: block;
+        padding-top: 0;
+        padding-left: 50px;
+        font-family: "lobster", cursive;
+        color: black;
+    }
+    .barra0{
+        display: block;
+        list-style: none;
+        padding-top: 700px;
+        padding-right: 10px;
+        font-size: 30px; 
+        gap: 40px;
+}
+/* pagina index fin */
+
+/* pagina nosotros inicio */
 .navbar{
     background-color: rgb(196, 122, 38);
 }
@@ -33,7 +148,7 @@
     font-family: "lobster", cursive;
 
 }
-h2{
+.text4{
     text-align: center;
     background-color: rgb(196, 122, 38);
     font-size: 45px;
@@ -66,48 +181,91 @@ h2{
     height: 450px;
 }
 
-.body-index{
-    background-image: url(imagenes/fondo2.jpg);
-    background-position: center;
-    background-size: cover;
+/* pagina nostros fin */
+
+/* pagina staff inicio */
+.contenedor{
+    
+    justify-items: center;
+    width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
-.logo0{
-    display: flex;
-    align-items: center;
-    padding-left: 300px;
-    font-family: "lobster", cursive;
-    color: black;
+.card1{
+    background-color: aquamarine;
+    width: 400px;
+}
+.card2{
+    background-color: blue;
+    width: 400px;
+}
+.card3{
+    background-color: crimson;
+    width: 400px;
+}
+.card4{
+    background-color: violet;
+    width: 400px;
+}
+.card5{
+    background-color: yellow;
+    width: 400px;
+}
+.card6{
+    background-color: yellowgreen;
+    width: 400px;
 }
 
-.barra0{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    padding: 0;
-    align-items: center;
-    font-size: 30px;
+@media only screen and (max-width: 821px){
+    .contenedor .card1 {
+        width: 250px;
+    }
+    .contenedor .card2{
+        width: 250px;
+    }
+    .contenedor .card3{
+        width: 250px;
+    }
+    .contenedor .card4{
+        width: 250px;
+    }
+    .contenedor .card5{
+        width: 250px;
+    }
+    .contenedor .card6{
+        width: 250px;
+    }
 }
 
-.barra0 li a{
-    color: black;
+@media only screen and (max-width: 520px){
+    .contenedor{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
 }
 
-.barra0 li a:hover{
-    color: rgb(196, 122, 38);
-}
+/* pagina saff fin */
 
-.titulo1{
-    text-align: center;
-    font-family: "lobster", cursive;
-    font-size: 60px;
-}
+/* pagina coming soon incio */
 
 .text3{
     text-align: center;
     font-family: "bebas neue", cursive;
     font-size: 60px;
 }
+
+.titulo3{
+    font-family: "bebas neue", cursive;
+    text-align: center;
+    font-size: 60px;
+}
+
+/* pagina coming soon fin */
+
+/* pagina turnos inicio */
 
 .pagina4{
     background-image: radial-gradient(circle, #a97a26, #b4832a, #bf8c2e, #cb9533, #d69e37, #cf8e39, #c6803c, #bb723e, #91503a, #623430, #331d1f, #000000);
@@ -126,9 +284,6 @@ h2{
     color: #fff;
 }
 
+/* pagina turnos fin */
 
-.titulo3{
-    font-family: "bebas neue", cursive;
-    text-align: center;
-    font-size: 60px;
-}
+
